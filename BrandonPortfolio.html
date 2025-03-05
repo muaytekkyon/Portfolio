@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/195d099d80.js" crossorigin="anonymous"></script>"
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Brandon Marsh Portfolio</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="./bm.jpg" width="50px">
+        </div>
+        <a class="nav-item">
+        <a class="nav-link" href="#home">Home
+            <i class="fa fa-home"></i>
+        </a>
+        </a>
+        <a class="nav-item">
+        <a class="nav-link" href="#workexperience">Work Experience</a>
+        </a>
+        <a class="nav-item">
+        <a class="nav-link" href="#contactme">Contact Me</a>
+        </a>
+        <div class="dropdown">
+            <button class="dropbtn">My Projects
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#SQL"> My SQL Projects</a>
+                <a href="#ML"> My Machine Learning Projects</a>
+                <a href="#Python">My Python Projects</a>
+                <a href="#Java">My Java Projects</a>
+            </div>
+        </div>
+    </div>
+
+    <img src="./bm.jpg" width="10px">
+
+    <section id="#home">
+        <div class="container" data-aos="fade-up">
+            <h1 class="text-center mb-5">Welcome, I'm Brandon Marsh! </h1>
+            <h3>I am a current senior at Queens College studying computer science with the hopes of entering the data science field, hopefully in a healthcare related role. I'm particularly interested in Python, R, SQL and Tableau. I have experience in Java, Excel and C++.</h3>
+        </div>
+    </section>
+
+    <section id="#workexperience">
+        <div class="container" data-aos="fade-up">
+            <h1> My Work Experience!</h1>
+            <p>
+                From October 2023 to June 2024, I interned at the CUNY Advanced Science Research Center at City College. While there, I conducted tours of the CUNY Advanced Science Research Center <span id="dots">...</span><span id="more">for over 200+ students ranging from the ages of 12 to 25. During my time there I learned to proficiently explain the interdisciplinary subjects of nanoscience, neuroscience, photonics, structural biology, and environmental science, fields that our initiative wanted to shine a light on. My main role was to administered Illumination Space neuroscience exhibit where EEGs,are placed upon students, explaining the various brain waves, parts of the brain, and their respective functionalities. I was lead manager of the software that visualizes the brain waves observed from the EEG. Towards the end of my internship I was able to collaborate with ASRC instructors and utilize EEG data to conduct research in R for a personal project of mine that is still under development!
+                    <br><br>
+               In the summer of 2023 I worked at the venerated iD Tech as an Online Computer Science Instructor, where I instructed students with various levels of knowledge in C++, Java, Python, and Microsoft Excel from varying ages of 8 to 18 years old. Each day I created personalized lesson plans for each student, reporting the progress to the parent after every session. I also spearheaded small groups of 10 students in an AI Experimentation course where students learned python basics, machine learning pillars, and the basics of AI  in order to create a rock paper scissors program where the user plays against AI, a customizable chatbot system, an AI-generated madlib story, and a speech recognition program.
+               <br><br>
+                From June 2022 to September 2023 I worked at the Queens College Social Services and Community Hub of the CUNY Experiential Education program. While there, I utilized Microsoft Excel to create, clean and analyze datasets of 1500+ students, creating charts and graphs that were subsequently presented to NYS Education to secure over $1M in funding for the program. I moderated up to 150+ interns at a time by performing administrative tasks such as responding to emails, conducting outreach to students to ensure their progress in the program, hosting information sessions that provide interns with critical information regarding the program, and hosting 1 on 1 sessions to gauge students’ progress in the CUNY Spring Forward and Career Launch Programs that 93% of students agreed were informative and supportive. As I earned more trust amongst my peers and supervisors, I was then tasked with instructing upcoming peer mentors with the necessary information in order to manage their interns satisfactorily.
+            <p>
+        </span>
+        </div>
+        <button onclick="myFunction()" id="myBtn">Read more</button>
+    </section>
+
+    <script>
+    function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+      
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+    }
+    </script>
+
+
+    <section id="#Java">
+        <h1> My Java and JavaScript Projects!</h1>
+        <p> Attached here is a link to my current Java projects.</p>
+        <a href="https://github.com/muaytekkyon/le" class="button-class">
+            Click here to view!
+        </a>
+    </section>
+    <section id="#contactme">
+        <div class="container" data-aos="fade-up">
+          <h1 class="text-center mb-5">Contact Me!</h1>
+          
+          <div class="row align-items-center">
+            <div class="col-lg-6" data-aos="fade-right">
+              <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> Email: brandon.marsh@macaulay.cuny.edu</p>
+                <p><i class="fas fa-linkedin-in">My LinkedIn!</i> 
+                    <a href="https://www.linkedin.com/in/brandonmarsh-/" class="text-white me-3">LinkedIn<i class='fab fa-linkedin-in'></i></a>
+                </p>
+                <p><i class="fa-brands fa-github">My Github!</i>
+                    <a href="https://github.com/muaytekkyon" class="text-white me-3">GitHub</a></p>
+              </div>
+            </div>
+            </div>
+        </div>
+      </section>
+
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5>Brandon Marsh</h5>
+            </div>
+            <div class="col-md-6 text-md-end">
+              <div class="social-links">
+                <a href="https://www.linkedin.com/in/brandonmarsh-/" class="text-white me-3">LinkedIn<i class='fab fa-linkedin-in'></i></a>
+              </div>
+              <p class="mt-3">© 2025 Brandon Marsh. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
