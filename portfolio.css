@@ -1,17 +1,23 @@
 .navbar{
     position:sticky;
     top:0;
-    overflow:hidden;
     background-color:black;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    padding: 15px 0;
+    padding:15px 15px 30px 15px;
 }
 
-.logo img{
-    width: 20px;  
-    height: 20px;
+.logo{
+    height:25px;
+    float:inline-end;
 }
 
+.body{
+    background-color:antiquewhite;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height:100vh;
+}
 .navbar a{
     float:left;
     font-size: 16px;
@@ -32,7 +38,6 @@
     border: solid;
     outline: none;
     color: white;
-    padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
     margin:0 ;
@@ -47,16 +52,16 @@
     position: absolute;
     background-color: white;
     min-width: 160px;
-
+    
 }
 
 .dropdown-content a{
     float: none;
     color: black;
-    padding: 12px 16px;
+     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    text-align:left;
+    text-align: left;
 }
 
 .dropdown-content a:hover{
@@ -68,14 +73,20 @@
 }
 
 .me{
-    margin-left: 500px;
-    margin-right: 800px;
-    margin-bottom: 20px:
+    margin-left: 400px;
+    margin-right: 1000px;
+    margin-bottom: 20px;
     display: block;
     border-style: solid;
+    background-color: violet;
 }
+
 #more{
     display:none;
+}
+.work{
+    display: block;
+    float: right;
 }
 
 .button-class{
@@ -90,14 +101,41 @@
     margin:4px 2px;
     cursor: pointer;
     border-radius: 4px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.button-class2{
+    background-color: lightgreen;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.button-class3{
+    background-color: lightpink;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 footer{
-    background-color: aqua;
+    background-color:aqua;
     height: 20vh;
-}
-
-footer{
-    background-color: aqua;
-    height: 20vh;
+    border-top:1rem;
 }
